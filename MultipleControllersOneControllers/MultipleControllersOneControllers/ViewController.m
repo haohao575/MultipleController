@@ -11,7 +11,7 @@
 #import "THTHTHTableViewController.h"
 #import "OneViewController.h"
 #import "TH_MultipleController/TH_MergeViewController.h"
-
+#import "AddViewViewController.h"
 
 @interface ViewController ()
 
@@ -25,8 +25,8 @@
 }
 - (IBAction)pusVC:(UIButton *)sender {
     
-    NSArray *vcArray = @[[MultipleTableViewController new],[THTHTHTableViewController new],[OneViewController new],[THTHTHTableViewController new],[MultipleTableViewController new],[MultipleTableViewController new]];
-    NSArray *titleArray = @[@"1",@"2",@"3",@"4",@"5",@"6"];
+    NSArray *vcArray = @[[AddViewViewController new],[THTHTHTableViewController new],[MultipleTableViewController new],[OneViewController new]];
+    NSArray *titleArray = @[@"1",@"2",@"3",@"4"];
     TH_MergeViewController *th_MergeVC = [[TH_MergeViewController alloc]initWithTitleArray:titleArray withViewControllerArray:vcArray];
     th_MergeVC.title = @"TH_MergeViewController";
     [self.navigationController pushViewController:th_MergeVC animated:YES];

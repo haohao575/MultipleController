@@ -16,6 +16,7 @@
 		724D0A561BD8E7A10050373E /* MultipleControllersOneControllersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 724D0A551BD8E7A10050373E /* MultipleControllersOneControllersTests.m */; };
 		724D0A611BD8E7A10050373E /* MultipleControllersOneControllersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 724D0A601BD8E7A10050373E /* MultipleControllersOneControllersUITests.m */; };
 		724D0A791BD8F0530050373E /* MultipleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 724D0A781BD8F0530050373E /* MultipleTableViewController.m */; };
+		72A6B3E41BFF216F00F0C749 /* AddViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A6B3E31BFF216F00F0C749 /* AddViewViewController.m */; };
 		72BF7F1D1BDA60CB00E6911B /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BF7F1C1BDA60CB00E6911B /* OneViewController.m */; };
 		72C3C4321BDA0EF5007CBEE7 /* THTHTHTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C3C4311BDA0EF5007CBEE7 /* THTHTHTableViewController.m */; };
 		72D0827A1BF599C200E05789 /* TH_MergeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D082741BF599C200E05789 /* TH_MergeViewController.m */; };
@@ -60,6 +61,8 @@
 		724D0A621BD8E7A10050373E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		724D0A771BD8F0530050373E /* MultipleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleTableViewController.h; sourceTree = "<group>"; };
 		724D0A781BD8F0530050373E /* MultipleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleTableViewController.m; sourceTree = "<group>"; };
+		72A6B3E21BFF216F00F0C749 /* AddViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewViewController.h; sourceTree = "<group>"; };
+		72A6B3E31BFF216F00F0C749 /* AddViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewViewController.m; sourceTree = "<group>"; };
 		72BF7F1B1BDA60CB00E6911B /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
 		72BF7F1C1BDA60CB00E6911B /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
 		72C3C4301BDA0EF5007CBEE7 /* THTHTHTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTHTHTableViewController.h; sourceTree = "<group>"; };
@@ -133,6 +136,8 @@
 				72C3C4311BDA0EF5007CBEE7 /* THTHTHTableViewController.m */,
 				72BF7F1B1BDA60CB00E6911B /* OneViewController.h */,
 				72BF7F1C1BDA60CB00E6911B /* OneViewController.m */,
+				72A6B3E21BFF216F00F0C749 /* AddViewViewController.h */,
+				72A6B3E31BFF216F00F0C749 /* AddViewViewController.m */,
 				724D0A441BD8E7A10050373E /* Main.storyboard */,
 				724D0A471BD8E7A10050373E /* Assets.xcassets */,
 				724D0A491BD8E7A10050373E /* LaunchScreen.storyboard */,
@@ -328,6 +333,7 @@
 				72D082821BF59B5D00E05789 /* TH_ColumnTableViewCell.m in Sources */,
 				72C3C4321BDA0EF5007CBEE7 /* THTHTHTableViewController.m in Sources */,
 				72BF7F1D1BDA60CB00E6911B /* OneViewController.m in Sources */,
+				72A6B3E41BFF216F00F0C749 /* AddViewViewController.m in Sources */,
 				724D0A791BD8F0530050373E /* MultipleTableViewController.m in Sources */,
 				72D0827A1BF599C200E05789 /* TH_MergeViewController.m in Sources */,
 				724D0A401BD8E7A10050373E /* AppDelegate.m in Sources */,

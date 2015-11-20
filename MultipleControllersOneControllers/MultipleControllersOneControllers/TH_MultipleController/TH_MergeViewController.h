@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #define TH_navigationControllerHeight 64
-#define TH_columnHeight 35
+#define TH_columnHeight 44
 #define TH_navigationControllerBarHeight 0
 //column显示几个 平均分配宽度
 #define TH_columnShowCount 0

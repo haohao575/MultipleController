@@ -26,6 +26,11 @@
 }
 - (void)addControllerView:(UIView *)view{
     view.frame = self.mergeView.frame;
+    if (self.mergeView) {
+        [self.mergeView removeFromSuperview];
+        self.mergeView = nil;
+        [self lodeView];
+    }
     [self.mergeView addSubview: view];
 }
 
